@@ -1,0 +1,71 @@
+.waiting-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.waiting-card {
+  background: white;
+  border-radius: 20px;
+  padding: 3rem;
+  max-width: 500px;
+  width: 100%;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.waiting-title {
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+  color: #333;
+}
+
+.room-code-display {
+  margin: 2rem 0;
+}
+
+.room-code-label {
+  color: #666;
+  font-size: 1rem;
+  margin: 0 0 1rem 0;
+}
+
+.room-code {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  color: #1c1c1c;
+  padding: 1rem;
+  background: #fafffd;
+  border-radius: 12px;
+}
+
+.waiting-dots {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #1c1c1c;
+}
+
+.cancel-button {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  background: #f0f0f0;
+  color: #666;
+  transition: all 0.2s;
+}
+
+.cancel-button:hover {
+  background: #e0e0e0;
+}

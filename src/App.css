@@ -4,6 +4,36 @@
   padding: 2rem;
   text-align: center;
   display: flex;
+  position: relative;
+}
+
+.app-container {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.mode-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  padding: 0.75rem 1.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #fafffd;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #1c1c1c;
+  z-index: 1000;
+}
+
+.mode-toggle:hover {
+  background: #1c1c1c;
+  color: #fafffd;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.3);
 }
 
 .reset-button {
