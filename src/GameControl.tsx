@@ -18,12 +18,12 @@ export default function GameControl({
   shuffleDone: boolean;
 }) {
   return (
-    <div className="gameplay">
+    <div className="bg-blue-navy border-secondary m-4 rounded-4xl border-8">
       <PlayerInformation isPlayerOneTurn={isFirstPlayerTurn} score={score} />
 
       <motion.button
         whileTap={{ scale: 0.9 }}
-        className={`reset-button ${shuffleDone ? 'disabled' : ''}`}
+        className={`reset-button text-primary bg-secondary mt-8 min-w-40.5 rounded-lg border-none px-8 py-3 text-[1.1rem] font-semibold transition-colors duration-200 ${shuffleDone ? 'cursor-not-allowed opacity-60' : ''}`}
         onClick={handleReset}
         disabled={shuffleDone}
       >

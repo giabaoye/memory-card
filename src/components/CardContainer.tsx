@@ -88,7 +88,7 @@ const CardContainer = forwardRef<CardContainerRef, CardContainerProps>(
     );
 
     return (
-      <div className="card-container">
+      <div className="grid grid-cols-6 grid-rows-3 gap-4 p-4 place-items-center">
         {cards.map((item, i) => {
           // Calculate grid position
           const col = i % 6;
