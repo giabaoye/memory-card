@@ -41,6 +41,20 @@ function App() {
         setIsResetting={setIsResetting}
         setShuffleDone={setShuffleDone}
       />
+      <p
+        aria-label="credit"
+        className="fixed right-3 bottom-2 text-2xl font-bold"
+      >
+        created by{' '}
+        <a
+          className="underline decoration-dashed underline-offset-4"
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://baonary.dev/"
+        >
+          baonary
+        </a>{' '}
+      </p>
     </>
   );
 }

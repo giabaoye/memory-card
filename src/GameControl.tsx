@@ -31,6 +31,7 @@ export default function GameControl({
           <motion.img
             src={LoadingIcon}
             alt="Loading"
+            className="m-auto"
             animate={{ rotate: 360 }}
             transition={{ repeat: Infinity, duration: 1 }}
           />
