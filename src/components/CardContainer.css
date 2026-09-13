@@ -1,11 +1,11 @@
-.card-container {
+/* .card-container {
   display: grid;
   grid-template-columns: repeat(6, auto);
   grid-template-rows: repeat(3, auto);
   gap: 1rem;
   padding: 1rem;
   place-items: center;
-}
+} */
 
 .card-wrapper {
   transform-origin: center center;
